@@ -10,3 +10,5 @@ master.py is the global file to run expreriments, that uses all the previous fil
 
 To run experiments, first compile the simu.cc file with "g++ simu.cc -o SIM -O3"; then execute the master script "python3 master.py"
 Once the experiments are done, use the master.py file again to draw graphs, by uncommenting the line "#TODO=["plots"]" and execute "python3 master.py" again.
+
+The first few lines of master.py correspond to the parameters used in the papers. nbSamples (number of traces per set of parameters) and nbVar (number of variations tested for any set of parameters+trace) can be reduced for faster experiments.
